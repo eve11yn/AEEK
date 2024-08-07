@@ -1,2 +1,2 @@
 # AEEK
-Trabalho de Git - Cesimar 07/08/2024
+Trabalho de Git - Cesimar 07/
