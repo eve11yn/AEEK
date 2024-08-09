@@ -1,43 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento</title>
-</head>
-<body>
-    <h1> Formul·rio de InscriÁ„o para o curso de Frontend</h1>
-    <hr>
-
-
-    </form>
-
-    <form action= "contato/users" method= "post">
-        <label> Nome </label>
-        <input type="text" name="nome" value= "" placeholder="Digite seu nome">
-        <br>
-
-
-        <label> E-mail </label>
-        <input type="email" name="email" placeholder="Digite um e-mail v·lido"> <br> 
-
-        <label> Cursos disponÌveis </label> <br>
-        <input type="radio" name="cursos disponiveis" value="html"> <label> HTML </label> <br>
-        <input type="radio" name="cursos disponiveis" value="css"> <label> CSS </label> <br>
-        <input type="radio" name="cursos disponiveis" value="java script"> <label> Java Script </label> <br>
-
-
-        
-     <label> Sexo </label> 
-        <select name="sexo"> 
-            <option value="fem"> Feminino </option> <br>
-            <option value="masc">Masculino </option> <br>
-     </select>
+    <head>
+        <meta charset="UTF-8">
+        <title>Documento de inscri√ß√£o</title>
+    </head>
+    <body>
+        <h1>Formul√°rio de inscri√ß√£o para o curso de Frontend</h1>
         <hr>
-
-        <input type="submit" value="Enviar">
-
-    </form>
-</body>
+        <form action="pagina.php" method="port">
+            <table>
+                <tbody>
+                 <tr>
+                  <td>
+                      <label for="nome">Nome</label>
+                  </td>
+                  <td>
+                      <input id="nome" type="text" placeholder="nome">
+                  </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <label for="email">E-mail</label>
+                     </td>
+                     <td>
+                         <input id="email" type="text" placeholder="email">
+                     </td>
+                 </tr>
+                 <td colspan="2">
+                     "cursos dispon√≠veis"
+                     <br>
+                     <input type="checkbox">
+                     <iabel for>HTML</iabel>
+                     <br>
+                     <input type="checkbox">
+                     <iabel for>CSS</iabel>
+                     <br>
+                     <input type="checkbox">
+                     <iabel for>Java Script</iabel>
+                 </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <iabel for="sexo">sexo</iabel>
+                        <select name="sexo" id="sexo">
+                            <option value="femi">Feminino</option>
+                            <option value="macho">Masculino</option>
+                        </select>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <hr>
+            <botton>Enviar</botton>
+        </form>
+    </body>
 </html>
